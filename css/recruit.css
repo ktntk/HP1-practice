@@ -1,0 +1,191 @@
+.service_all {
+  position: relative;
+}
+
+.service_block_wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 0%;
+}
+
+.service_block_1 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.service_block_1 img {
+  width: 80%;
+  height: auto;
+}
+
+.service_block_2 {
+  font-size: 25px;
+  text-align: center;
+  line-height: 3;
+  width: 50%;
+  margin: 5%;
+  padding-bottom: 3%;
+}
+
+.service_block_2 h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #555;
+  line-height: 0.8;
+  margin-bottom: 20%;
+  padding-top: 20%;
+}
+
+.service_list_wrapper1 {
+  position: absolute;
+  top: 15;
+  right: 0;
+  background: #ddd;
+  width: 70%;
+  height: 35rem;
+  z-index: -1;
+  margin-top: 10%;
+}
+
+.service_list {
+  width: 80%;
+  padding: 33% 0 0 0;
+}
+
+.service_btn {
+  padding-top: 13%;
+  padding-right: 25%;
+  margin: 0% 0 5% auto;
+  width: 30%;
+  line-height: 4;
+  font-weight: normal;
+}
+
+.service_btn a {
+  font-weight: normal;
+}
+
+.ttl {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.ttl span {
+  font-size: 1.15rem;
+  color: #000;
+}
+
+.recruit_block_wrapper {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+}
+
+.recruit_txt{
+  font-size: 60px;
+  margin: 25% 0 5% 10%;
+}
+
+.recruit_block_person1 {
+  position: relative;
+  background: url(../img/技術職の人物アイコン.png) center center no-repeat;
+  background-size: cover;
+  width: 25%;
+  height: 50vh;
+  border: 1px solid #000;
+}
+
+.recruit_block_person2 {
+  position: relative;
+  background: url(../img/工事の作業員のアイコン.png) center center no-repeat;
+  background-size: cover;
+  width: 25%;
+  height: 50vh;
+  border: 1px solid #000;
+}
+
+.recruit_block_person_info {
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(17, 17, 17, 0.6);
+  padding: 7.5% 10%;
+  color: #fff;
+}
+
+.recruit_block_person_name {
+  text-align: center;
+  margin-bottom: 2.5%;
+}
+
+.recruit_block_person_name p {
+  font-size: 1.75rem;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.recruit_block_person_department {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.recruit_discussion_inner {
+  background-color: #eee;
+  padding: 3% 0;
+}
+
+.recruit_discussion {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.recruit_discussion_ttl {
+  margin: 1% 0;
+}
+
+.recruit_discussion_ttl p {
+  font-size: 1.5rem;
+}
+
+.recruit_discussion_ttl p span {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ff8856;
+}
+
+.recruit_discussion_list {
+  background-color: #fff;
+  padding: 1% 0;
+}
+
+.recruit_discussion_item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1% 0;
+}
+
+.recruit_discussion_member {
+  width: auto;
+  text-align: center;
+}
+
+.recruit_discussion_member img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.recruit_discussion_member p {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.recruit_discussion_txt {
+  width: 70%;
+  line-height: 2.25;
+  font-size: 25px;
+}

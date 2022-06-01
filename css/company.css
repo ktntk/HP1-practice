@@ -1,0 +1,28 @@
+.company_wrapper {
+  width: 90%;
+  line-height: 50px;
+}
+
+.company_item{
+  display: flex;
+  text-align: left;
+  margin-right: 15%;
+}
+
+.company_item span {
+width: 50%;
+font-size: 1.25rem;
+font-weight: bold;
+text-align: left;
+margin-left: 35%;
+}
+
+
+.company_item p {
+width: 50%;
+border-bottom: 1px solid #ccc;
+}
+
+.map_link {
+  color: #ff8856;
+}

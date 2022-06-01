@@ -1,0 +1,104 @@
+.service_all {
+  position: relative;
+}
+
+.service_block_wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 0%;
+}
+
+.service_block_1 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.service_block_1 img {
+  width: 80%;
+  height: auto;
+}
+
+.service_block_2 {
+  font-size: 25px;
+  text-align: center;
+  line-height: 3;
+  width: 50%;
+  margin: 5%;
+  padding-bottom: 3%;
+}
+
+.service_block_2 h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #555;
+  line-height: 0.8;
+  margin-bottom: 20%;
+  padding-top: 20%;
+}
+
+.service_list_wrapper1 {
+  position: absolute;
+  top: 15;
+  right: 0;
+  background: #ddd;
+  width: 70%;
+  height: 35rem;
+  z-index: -1;
+  margin-top: 10%;
+}
+
+.service_list_wrapper2 {
+  position: absolute;
+  top: 10;
+  right: 0;
+  background: #ddd;
+  width: 70%;
+  height: 35rem;
+  z-index: -1;
+  margin-top: 10%;
+}
+
+.service_list_wrapper3 {
+  position: absolute;
+  top: 40;
+  right: 0;
+  background: #ddd;
+  width: 70%;
+  height: 35rem;
+  z-index: -1;
+  margin-top: 10%;
+}
+
+.service_list {
+  width: 80%;
+  padding: 33% 0 0 0;
+}
+
+.service_btn {
+  padding-top: 13%;
+  padding-right: 25%;
+  margin: 0% 0 5% auto;
+  width: 30%;
+  line-height: 4;
+  font-weight: normal;
+}
+
+.service_btn a {
+  font-weight: normal;
+}
+
+.service_block_wrapper_reverse {
+  flex-flow: row-reverse;
+}
+
+.service_block_1_reverse {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.service_block_2_reverse {
+  margin-left: 10%;
+  margin-right: unset;
+}
