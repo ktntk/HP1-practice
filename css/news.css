@@ -26,16 +26,9 @@
   font-size: 1.1rem;
 }
 
-.news_category {
-  font-weight: bold;
-  padding: 1% 2%;
-  border: 1px solid #ff8856;
-  font-size: 0.75rem;
-  color: #ff8856;
-}
-
 .news_ttl {
   font-size: 1.1rem;
+  padding-right: 10%;
 }
 
 .news_side_wrapper {
