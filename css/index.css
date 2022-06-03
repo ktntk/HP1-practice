@@ -96,6 +96,7 @@ text-align: center;
 display: inline-block;
 margin: 2.5% 0;
 text-align: left;
+padding-bottom: 3%;
 }
 
 .news_list li {
@@ -134,7 +135,7 @@ opacity: 0.7;
 display: block;
 width: 40%;
 margin: 0 auto;
-margin-left: 15%;
+margin-left: 5%;
 font-size: 30px;
 }
 
@@ -143,6 +144,7 @@ margin-top: 5%;
 font-weight: bold;
 line-height: 1.5;
 text-align: left;
+line-height: 2;
 }
 
 .top_txt_wrapper {
@@ -157,25 +159,25 @@ height: 10%;
 
 .top_wrapper {
 width: 100%;
+margin: 0 5%;
 }
 
 .ttl_front {
 display: flex;
-margin-left: 13%;
+margin-left: 5%;
 color: #3490EB;
 font-weight: bold;
-font-size: 5rem;
+font-size: 7rem;
 line-height: 1;
 }
 
 .ttl_front a {
 position: absolute;
-top: -13%;
-right: 20%;
+top: -12%;
 z-index: -1;
 color: #FFFFFF;
 font-weight: bold;
-font-size: 200px;
+font-size: 230px;
 text-shadow: #000000 2px 2px 5px;
 }
 
@@ -213,6 +215,7 @@ font-size: 30px;
 /* contact */
 .contact_wrapper p {
 margin: 3% 0;
+padding-bottom: 5%;
 font-size: 2rem;
 }
 
